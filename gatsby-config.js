@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Pavel Gordon`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Pavel Gordon`,
+      summary: `who lives and works in Hamburg building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Personal blog by Pavel Gordon`,
+    siteUrl: `pgordon.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `pavelgordon`,
     },
   },
   plugins: [

@@ -7,13 +7,50 @@ import { rhythm } from "../utils/typography"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitterSquare,faGithub,faInstagram,faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 const Bio = () => {
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
+        childImageSharp {
+          fixed(width: 400, height: 400) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      site {
+        siteMetadata {
+          author {
+            name
+          }
+          social {
+            twitter
+          }
+        }
+      }
+    }
+  `)
+
+  const { author } = data.site.siteMetadata
+
+
   return (
 
 
     <section className='container centered'>
         <div className="about">
 
-          <div className="avatar"><img src="https://pgordon.dev/images/avatar.jpg" alt="avatar" /></div>
+
+        <Image
+        fixed={data.avatar.childImageSharp.fixed}
+        alt={author.name}
+        style={{
+          width: 250,
+          height: 250,
+          borderRadius: `100%`,
+        }}
+        imgStyle={{
+          borderRadius: `60%`,
+        }}
+      />
 
           <h1>Pavel Gordon</h1>
           <h2>Backend(Java/Kotlin) Engineer</h2>
