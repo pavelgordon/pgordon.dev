@@ -1,69 +1,49 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitterSquare,faGithub,faInstagram,faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
-
-  const { author, social } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author.name}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
+
+
+    <section className='container centered'>
+        <div className="about">
+
+          <div className="avatar"><img src="https://pgordon.dev/images/avatar.jpg" alt="avatar" /></div>
+
+          <h1>Pavel Gordon</h1>
+          <h2>Backend(Java/Kotlin) Engineer</h2>
+
+          <ul>
+            <li>
+              <a href="https://github.com/pavelgordon/" aria-label="Github" style={{ boxShadow: 'none' }}>
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/pavelgordon/" aria-label="Twitter" style={{ boxShadow: 'none' }}>
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/gordon.pawel/" aria-label="Instagram" style={{ boxShadow: 'none' }}>
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/freemahn" aria-label="Telegram" style={{ boxShadow: 'none' }}>
+                <FontAwesomeIcon icon={faTelegram} size="2x" />
+              </a>
+            </li>
+          </ul>
+
+
     </div>
+    </section>
   )
 }
 
