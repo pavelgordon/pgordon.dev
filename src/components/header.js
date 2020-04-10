@@ -27,7 +27,7 @@ const Header = ({ location, title, children }) => {
 
                     <li className="navigation-item">
                         {/* <Link className="navigation-link" to="pavel_gordon_resume.pdf" activeStyle={{ boxShadow: 'none' }} >CV</Link> */}
-                        <a href="pavel_gordon_resume.pdf" activeStyle={{ boxShadow: 'none' }} >CV</a>
+                        <a href="/pavel_gordon_resume.pdf" activeStyle={{ boxShadow: 'none' }} >CV</a>
 
                     </li>
                 </ul>
