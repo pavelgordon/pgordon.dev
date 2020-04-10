@@ -2,6 +2,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import "./bio.css"
 
 import { rhythm } from "../utils/typography"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -43,17 +44,17 @@ const Bio = () => {
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
-          width: 250,
-          height: 250,
+          width: 200,
+          height: 200,
           borderRadius: `100%`,
         }}
         imgStyle={{
-          borderRadius: `60%`,
+          borderRadius: `50%`,
         }}
       />
 
-          <h1>Pavel Gordon</h1>
-          <h2>Backend(Java/Kotlin) Engineer</h2>
+          <h1 className="name">Pavel Gordon</h1>
+          <h2 className="position">Senior Back End Engineer</h2>
 
           <ul>
             <li>

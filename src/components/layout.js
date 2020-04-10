@@ -5,7 +5,15 @@ import { rhythm, scale } from "../utils/typography"
 import Footer from "./footer"
 import Header from "./header"
 
-import { faTwitterSquare, faGithub, faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+
+// The following import prevents a Font Awesome icon server-side rendering bug,
+// where the icons flash from a very large icon down to a properly sized one:
+import '@fortawesome/fontawesome-svg-core/styles.css';
+// Prevent fontawesome from adding its CSS since we did it manually above:
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
+
 
 const Layout = ({ location, title, children }) => {
 
@@ -14,8 +22,8 @@ const Layout = ({ location, title, children }) => {
             <Header />
 
             <div className='content'>
-                    {children}
-            </div> 
+                {children}
+            </div>
             <Footer />
 
         </main>
