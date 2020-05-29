@@ -39,19 +39,11 @@ const Bio = () => {
     <section className='container centered'>
         <div className="about">
 
-
-        <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author.name}
-        style={{
+        <img src='avatar.jpg' style={{
           width: 200,
           height: 200,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
           borderRadius: `50%`,
-        }}
-      />
+        }}/>
 
           <h1 className="name">Pavel Gordon</h1>
           <h2 className="position">Senior Back End Engineer</h2>
