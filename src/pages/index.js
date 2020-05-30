@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import Bio from "../components/bio"
+import SEO from "../components/seo"
 
 const MainPage = () => (
     <Layout>
-        <Bio></Bio>
+        <SEO title="Pavel Gordon"/>
+        <Bio/>
     </Layout>     
 )
 

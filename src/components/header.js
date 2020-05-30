@@ -13,21 +13,21 @@ const Header = ({ location, title, children }) => {
 
                 <Link className="navigation-title" to="/" activeStyle={{ boxShadow: 'none' }}>Pavel Gordon</Link>
                 <input type="checkbox" id="menu-toggle" />
-                <label className="menu-button float-right" for="menu-toggle"><i className="fas fa-bars"></i></label>
+                <label className="menu-button float-right" htmlFor="menu-toggle"><i className="fas fa-bars"></i></label>
                 <ul className="navigation-list">
 
                     <li className="navigation-item">
-                        <Link className="navigation-link" to="about" activeStyle={{ boxShadow: 'none' }}>About me</Link>
+                        <Link className="navigation-link" to="about" activestyle={{ boxShadow: 'none' }}>About me</Link>
                     </li>
 
                     <li className="navigation-item">
                         {/* <Link className="navigation-link" to="https://github.com/pavelgordon" activeStyle={{ boxShadow: 'none' }}> Projects </Link> */}
-                        <a href="https://github.com/pavelgordon" activeStyle={{ boxShadow: 'none' }} >Projects</a>
+                        <a href="https://github.com/pavelgordon" activestyle={{ boxShadow: 'none' }} >Projects</a>
                     </li>
 
                     <li className="navigation-item">
                         {/* <Link className="navigation-link" to="pavel_gordon_resume.pdf" activeStyle={{ boxShadow: 'none' }} >CV</Link> */}
-                        <a href="/pavel_gordon_resume.pdf" activeStyle={{ boxShadow: 'none' }} >CV</a>
+                        <a href="/pavel_gordon_resume.pdf" activestyle={{ boxShadow: 'none' }} >CV</a>
 
                     </li>
                 </ul>
