@@ -3,7 +3,7 @@ module.exports = {
     title: `Pavel Gordon`,
     author: {
       name: `Pavel Gordon`,
-      summary: `who lives and works in Hamburg building useful things.`,
+      summary: `who lives and works in Amsterdam building useful things.`,
     },
     description: `Personal blog by Pavel Gordon`,
     siteUrl: `https://pgordon.dev`,

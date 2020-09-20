@@ -46,7 +46,7 @@ const Bio = () => {
         }}/>
 
           <h1 className="name">Pavel Gordon</h1>
-          <h2 className="position">Senior Back End Engineer</h2>
+          <h2 className="position">Software Engineer</h2>
 
           <ul>
             <li>
@@ -60,7 +60,7 @@ const Bio = () => {
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/gordon.pawel/" aria-label="Instagram" style={{ boxShadow: 'none' }}>
+              <a href="https://instagram.com/gordon.pav/" aria-label="Instagram" style={{ boxShadow: 'none' }}>
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
             </li>
