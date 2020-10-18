@@ -39,7 +39,7 @@ const Bio = () => {
     <section className='container centered'>
         <div className="about">
 
-        <img src='avatar.jpg' style={{
+        <img alt='Pavel Gordon' src='avatar.jpg' style={{
           width: 200,
           height: 200,
           borderRadius: `50%`,
