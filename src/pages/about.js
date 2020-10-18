@@ -21,7 +21,7 @@ const About = ({ location, title, children }) => {
                     I always push myself to be a better developer and stay up to date with the latest technology trends. I participate and (occasionally) win at hackathons, visit various IT conferences across the globe. <br />
                 </p>
                 <p>
-                    In my free time I learn new languages, play chess and write small apps like <a href="https://objectrandomizer.pgordon.dev"> ObjectRandomizer </a> 
+                    In my free time I learn new languages, play <a href="https://lichess.org/@/freemahn">chess</a> and write small apps like <a href="https://objectrandomizer.pgordon.dev"> ObjectRandomizer </a> 
                     <br />
                 </p>
             </section>
