@@ -4,33 +4,36 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import "./bio.css"
 
+import avatar from '../../content/assets/avatar.jpg'
+
+
 import { rhythm } from "../utils/typography"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitterSquare,faGithub,faInstagram,faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
-        childImageSharp {
-          fixed(width: 400, height: 400) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author {
-            name
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query BioQuery {
+  //     avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
+  //       childImageSharp {
+  //         fixed(width: 400, height: 400) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     site {
+  //       siteMetadata {
+  //         author {
+  //           name
+  //         }
+  //         social {
+  //           twitter
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
-  const { author } = data.site.siteMetadata
+  // const { author } = data.site.siteMetadata
 
 
   return (
@@ -39,10 +42,10 @@ const Bio = () => {
     <section className='container centered'>
         <div className="about">
 
-        <img alt='Pavel Gordon' src='avatar.jpg' style={{
+        <img alt='Pavel Gordon' src={avatar} style={{
           width: 200,
           height: 200,
-          borderRadius: `50%`,
+          borderRadius: `60%`,
         }}/>
 
           <h1 className="name">Pavel Gordon</h1>
