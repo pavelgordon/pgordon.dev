@@ -17,7 +17,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
+      <article className="container page">
         <header>
           <h1
             style={{
@@ -43,9 +43,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
-          <Bio />
-        </footer>
       </article>
 
       <nav>
@@ -58,7 +55,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             padding: 0,
           }}
         >
-          <li>
+          {/* <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
@@ -71,7 +68,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 {next.frontmatter.title} →
               </Link>
             )}
-          </li>
+          </li> */}
         </ul>
       </nav>
     </Layout>
