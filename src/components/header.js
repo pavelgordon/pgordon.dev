@@ -17,8 +17,12 @@ const Header = ({ location, title, children }) => {
                 <ul className="navigation-list">
 
                     <li className="navigation-item">
-                        <Link className="navigation-link" to="about" activestyle={{ boxShadow: 'none' }}>About me</Link>
+                        <Link className="navigation-link" to="/about" activestyle={{ boxShadow: 'none' }}>About me</Link>
                     </li>
+
+                    <li className="navigation-item">
+                        <Link className="navigation-link" to="/blog" activestyle={{ boxShadow: 'none' }}>Blog</Link>
+                    </li>   
 
                     <li className="navigation-item">
                         {/* <Link className="navigation-link" to="https://github.com/pavelgordon" activeStyle={{ boxShadow: 'none' }}> Projects </Link> */}
