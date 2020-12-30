@@ -6,7 +6,7 @@ draft: false
 ---
 ![Flight over Venice](/ac2-1.jpg)
 ### Brief history of Assassin's Creed II
-Assasin's Creed II is a videogame which takes place in medieval Italy, where player experiences life of Ezio Auditore da Firenze, Italian noble. The main narrative takes place at the height of the Renaissance in Italy during the 15th and early 16th century. Player can explore Florence, Venice, Tuscany, Monteriggioni and Forlì as they guide Ezio on a quest for vengeance against those responsible for betraying his family. There is also parallel plot line with descendant of Ezio, Desmond Miles from XXI century, being able to access genetic memory of his ancestor via special machine called Animus. 
+Assassin's Creed II is a videogame which takes place in medieval Italy, where player experiences life of Ezio Auditore da Firenze, Italian noble. The main narrative takes place at the height of the Renaissance in Italy during the 15th and early 16th century. Player can explore Florence, Venice, Tuscany, Monteriggioni and Forlì as they guide Ezio on a quest for vengeance against those responsible for betraying his family. There is also parallel plot line with descendant of Ezio, Desmond Miles from XXI century, being able to access genetic memory of his ancestor via special machine called Animus. 
 ### What's that about
 
 Due to "laggy translation software" in Animus, some phrases of this memory are in Italian, and not in English.
