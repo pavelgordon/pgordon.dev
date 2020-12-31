@@ -2,7 +2,7 @@
 title: 2020 Resolution
 date: "2020-12-31T14:40:32.169Z"
 description: Because I had to do it like everyone else.
-draft: true
+draft: false
 ---
 
 2020 was not an easy year for the world. Below is summary of the most important outcomes in my 2020, and ideas of what will be in 2021.
