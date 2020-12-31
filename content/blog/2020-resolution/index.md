@@ -10,7 +10,7 @@ draft: false
 ## What happened with Pavel in 2020?
 
 #### I changed everything around me yet again
-This year, after two years of hard work, I said goodbye to my wonderful team at FreeNOW in Hamburg. I got a chance to live for a shot time in beautiful Amsterdam, where I worked at MessageBird with ones of the most passionate people I have ever met. I finished my year in Stockholm, where as member of the engineering team I will contribute to Spotify - and do it with [my best friend](https://lyamkin.com/).
+This year, after two years of hard work, I said goodbye to my wonderful team at FreeNOW in Hamburg. I got a chance to live for a short time in beautiful Amsterdam, where I worked at MessageBird with ones of the most passionate people I have ever met. I finished my year in Stockholm, where as member of the engineering team I will contribute to Spotify - and do it with [my best friend](https://lyamkin.com/).
 
 #### I started my contribution to open-source
 I work as a software engineer for more than 4 years. Still, I have never contributed to open-source. It's hard to admit, but I was afraid of breaking things and getting criticism. This year, I contributed to [hibernate-types](https://github.com/vladmihalcea/hibernate-types) of Vlad Mihalcea. Also, as a person who learns new languages on a daily basis, I understand how difficult it can be, so I published a couple of tweaks for [Anki/Babbel](https://github.com/pavelgordon/babbel2anki-chrome-extension) and [Duolingo/Anki](https://github.com/pavelgordon/duolingo2anki-chrome-extension) integrations, which (hopefully) will make this process a little bit easier.
