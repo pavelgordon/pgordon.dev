@@ -10,6 +10,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+  console.log(post)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -29,7 +30,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>
           <p
             style={{
-              ...scale(-1 / 5),
+              ...scale(1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
             }}
