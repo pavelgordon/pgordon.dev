@@ -6,13 +6,18 @@ draft: false
 ---
 ![Flight over Venice](/ac2-1.jpg)
 ### Brief history of Assassin's Creed II
-Assassin's Creed II is a videogame which takes place in medieval Italy, where player experiences life of Ezio Auditore da Firenze, Italian noble. The main narrative takes place at the height of the Renaissance in Italy during the 15th and early 16th century. Player can explore Florence, Venice, Tuscany, Monteriggioni and Forlì as they guide Ezio on a quest for vengeance against those responsible for betraying his family. There is also parallel plot line with descendant of Ezio, Desmond Miles from XXI century, being able to access genetic memory of his ancestor via special machine called Animus. 
+Assassin's Creed II is a videogame which takes place in medieval Italy, where player experiences life of Ezio Auditore da Firenze, Italian noble.
+
+The main narrative takes place at the height of the Renaissance in Italy during the 15th and early 16th century. Player can explore Florence, Venice, Tuscany, Monteriggioni and Forlì as they guide Ezio on a quest for vengeance against those responsible for betraying his family. 
+
+There is also parallel plot line with descendant of Ezio, Desmond Miles from XXI century, being able to access genetic memory of his ancestor via special machine called Animus. 
 ### What's that about
 
 Due to "laggy translation software" in Animus, some phrases of this memory are in Italian, and not in English.
 I compiled a [full list of phrases and words](#words) with their translations, and decided to share it to the world. Maybe it will be useful for someone.  
-This game made indelible impression on me and my life. 
-Partially because of it, I have traveled to Italy multiple times, and learn Italian at the moment.  
+
+This game made indelible impression on me and my life. Partially because of it, I have traveled to Italy multiple times, and learn Italian at the moment.  
+
 For people who wants to relive the experience of Italian's Renaissance in AC, I can recommend [this series of Assassin's Creed II walkthrough](https://www.youtube.com/watch?v=67xgpIpFDKM&list=PLihL86qFbHcx1-Em-u3uPE1HL7J2qb0hY). Or this [Assassin's Creed Pilgrimage - Tour of Venice](https://www.youtube.com/watch?v=Z_EpzZSBWDI) - footage from a trip to Venice, and how real life compares to the Assassin's Creed version. It's not my video, although I have been in the same places.
 
 
